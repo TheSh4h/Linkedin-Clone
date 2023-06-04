@@ -25,7 +25,7 @@ const Header = () => {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Chat" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <HeaderOption avatar="img/zoro.jpg" title="me" />
+                <HeaderOption avatar={require('./img/zoro.jpg')} title="me" />
 
             </div>
         </div>
