@@ -75,3 +75,30 @@
     border-radius: 10px;
     margin-top: 10px;
 }
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sidebar__bottom > p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.sidebar__recentItem:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebar__hash {
+    margin-right: 10px;
+    margin-left: 5px;
+}
