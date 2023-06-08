@@ -33,7 +33,11 @@ const Feed = () => {
                 </div>
             </div>
 
-            <Post />
+            <Post
+            name="Haseeb Shah"
+            description="This is a test"
+            message="Wow this worked"
+            />
 
         </div>
      );
